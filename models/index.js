@@ -17,10 +17,14 @@ const db = {};
 let sequelize;
 
 if (config.use_env_variable) {
+  console.log('------');
+  console.log('ABOVE Sequalize CONFIG.USE_ENV_VARIABLE: ', config.use_env_variable);
+  console.log('ABOVE Sequalize JAWSDB_URL: ', process.env.JAWSDB_URL);
+  console.log('------');
   sequelize = new Sequelize(process.env[config.use_env_variable]);
   console.log('------');
-  console.log('CONFIG.USE_ENV_VARIABLE: ', config.use_env_variable);
-  console.log('JAWSDB_URL: ', process.env.JAWSDB_URL);
+  console.log('BELOW CONFIG.USE_ENV_VARIABLE: ', config.use_env_variable);
+  console.log('BELOW JAWSDB_URL: ', process.env.JAWSDB_URL);
   console.log('------');
 } else {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
