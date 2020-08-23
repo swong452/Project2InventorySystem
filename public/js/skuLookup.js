@@ -1,4 +1,5 @@
 /* eslint-disable no-use-before-define */
+/* eslint-env jquery */
 
 $(document).ready(() => {
   // Take the value from local storage, and attach these values on newInventory screen

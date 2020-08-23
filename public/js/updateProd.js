@@ -1,4 +1,6 @@
 /* eslint-disable no-use-before-define */
+/* eslint-env jquery */
+
 $(document).ready(() => {
   const updateProduct = $('form.updateProduct');
   // const productSku = $('#skuNum');

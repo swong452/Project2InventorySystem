@@ -1,3 +1,5 @@
+/* eslint-env jquery */
+
 const tableID = $('#table');
 const BTN = $('#export-btn');
 const EXPORT = $('#export');
