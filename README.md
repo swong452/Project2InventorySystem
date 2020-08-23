@@ -1,5 +1,6 @@
 # Heimdall
 Heimdall is a simple, inventory management app: https://mysterious-falls-36558.herokuapp.com/
+or samson link: https://tranquil-wave-81173.herokuapp.com/
 
 ## Description
 
