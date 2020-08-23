@@ -1,0 +1,31 @@
+!! API call to search base on SKU
+https://api.bestbuy.com/v1/products(sku=1999)?apiKey=vDloch7HfMAIbPtlLB2FE6Sp&format=json
+vDloch7HfMAIbPtlLB2FE6Sp
+
+!! API call to search base on cateogry (Home Audio)
+https://api.bestbuy.com/v1/products((categoryPath.id=pcmcat241600050001))?apiKey=vDloch7HfMAIbPtlLB2FE6Sp&sort=image.asc&show=categoryPath.name,image,name,salePrice,shortDescription,sku,thumbnailImage&format=json
+
+!! Search by SKU
+https://api.bestbuy.com/v1/products(sku=1312503)?apiKey=vDloch7HfMAIbPtlLB2FE6Sp&format=json
+
+
+For New Product
+1. Create page to manually add
+2. Create a Mass Update to auto insert products by categories, and fill in all the fields
+
+
+https://codepen.io/electronicshed/pen/QWwjyRd
+
+https://github.com/tabouzeid/heimdall
+
+Use google account to login to Both:
+https://trello.com/b/7svwDNnY/heimdall
+
+https://app.lucidchart.com/documents/edit/1174d23b-08cf-45d3-9afc-bb6ad5c79630/0_0?shared=true
+
+===============================
+https://www.freecodecamp.org/news/making-an-awesome-inventory-management-application-in-php-and-mysql-from-start-to-finish-90bc5996680a/
+
+
+
+
