@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/swong452/Project2InventorySystem.git"
+    "url": "git+https://github.com/tabouzeid/heimdall.git"
   },
   "keywords": [
     "npm"
@@ -20,9 +20,9 @@
   "author": "Taher Abouzeid, Michael Li, Samson Wong, Brielle McCormick, Mackenzie Clark, Daria Tharmaratnam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/swong452/Project2InventorySystem/issues"
+    "url": "https://github.com/tabouzeid/heimdall/issues"
   },
-  "homepage": "https://github.com/swong452/Project2InventorySystem/blob/master/README.md",
+  "homepage": "https://github.com/tabouzeid/heimdall#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
